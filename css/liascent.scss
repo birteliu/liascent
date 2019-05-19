@@ -1,5 +1,6 @@
 $color-black: #333333;
-$color-orange: #ff6550;
+$color-orange: #F59B65;
+$color-green: #7FB559;
 
 @mixin ab_center {
   position: absolute;
@@ -43,14 +44,16 @@ body {
   max-width: 800px;
 }
 .material {
+  background-image: linear-gradient(60deg, #abecd6 0%, #fbed96 100%);
   .container {
     max-width: 750px;
   }
 }
 .about {
-  background-color: #54965A;
+  background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
   .container {
     max-width: 900px;
+    min-height: 285px;
   }
 }
 .contact {

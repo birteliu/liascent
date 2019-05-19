@@ -19,16 +19,21 @@ body {
   max-width: 800px;
 }
 
+.material {
+  background-image: linear-gradient(60deg, #abecd6 0%, #fbed96 100%);
+}
+
 .material .container {
   max-width: 750px;
 }
 
 .about {
-  background-color: #54965A;
+  background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
 }
 
 .about .container {
   max-width: 900px;
+  min-height: 285px;
 }
 
 .contact ul {
