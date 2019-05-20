@@ -43,6 +43,9 @@ body {
 
 .main-product {
   max-width: 800px;
+  .card-btn {
+    border-radius: 0;
+  }
 }
 .material {
   background-image: linear-gradient(60deg, #abecd6 0%, #fbed96 100%);
@@ -50,11 +53,16 @@ body {
     max-width: 750px;
   }
 }
+.other-products {
+  img {
+    width: 70%;
+  }
+}
 .about {
   background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
   .container {
     max-width: 900px;
-    min-height: 285px;
+    min-height: 350px;
     img {
       @include ab_center;
     }
@@ -63,9 +71,15 @@ body {
 .contact {
   ul {
     width: 250px;
-    i {
+    li {
+      height: 50px;
+      line-height: 25px;
+      i {
         width: 50px;
+        line-height: 25px;
       }
+    }
+    
   }
   
 }
