@@ -32,6 +32,7 @@ html,
 body {
   margin: 0;
   padding: 0;
+  scroll-behavior: smooth;
 }
 
 .section-nav {
@@ -54,6 +55,9 @@ body {
   .container {
     max-width: 900px;
     min-height: 285px;
+    img {
+      @include ab_center;
+    }
   }
 }
 .contact {

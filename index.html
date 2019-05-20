@@ -19,15 +19,15 @@
   <div class="section-nav d-flex flex-column flex-md-row align-items-center p-2 px-md-4 mb-3 bg-white border-bottom shadow-sm">
     <img src="img/logo.png" alt="" class="my-0 mr-md-auto">
     <nav class="my-2 my-md-0 mr-md-3">
-      <a class="p-2 text-dark" href="#">Main Product</a>
-      <a class="p-2 text-dark" href="#">Other Products</a>
-      <a class="p-2 text-dark" href="#">About Us</a>
-      <a class="p-2 text-dark" href="#">Get in Touch</a>
+      <a class="p-2 text-dark" href="#section1">Main Product</a>
+      <a class="p-2 text-dark" href="#section2">Other Products</a>
+      <a class="p-2 text-dark" href="#section3">About Us</a>
+      <a class="p-2 text-dark" href="#section4">Get in Touch</a>
     </nav>
   </div>
 
   <!-- main-product -->
-  <div class="main-product px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+  <div class="main-product px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center" id="section1">
     <h2 class="">Main Product</h2>
     <p class="mb-4">釣魚褲簡介釣魚褲簡介釣魚褲簡介釣魚褲簡介</p>
     <div class="container">
@@ -90,7 +90,7 @@
   <!--jumbotron-->
 
   <!-- Other Products -->
-  <div class="other-products px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center mb-5">
+  <div class="other-products px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center mb-5" id="section2">
     <div class="container">
       <h3>其他產品</h3>
       <div class="row">
@@ -98,25 +98,117 @@
           <img src="img/fishing-1.jpg" alt="" class="img-fluid rounded-circle p-4">
           <h5>釣魚打獵</h5>
           <p>介紹介紹介紹介紹介紹</p>
-          <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+          <p><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+              view details
+            </button></p>
+          <!-- Modal -->
+          <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">釣魚打獵</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <img src="img/fishing-2.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--modal-->
         </div><!-- /.col-lg-3 -->
         <div class="col-lg-3">
           <img src="img/sport-1.jpg" alt="" class="img-fluid rounded-circle p-4">
           <h5>運動用品</h5>
           <p>介紹介紹介紹介紹介紹</p>
-          <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+          <p><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+              view details
+            </button></p>
+          <!-- Modal -->
+          <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">釣魚打獵</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <img src="img/fishing-2.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--modal-->
         </div><!-- /.col-lg-3 -->
         <div class="col-lg-3">
-          <img src="img/fishing-1.jpg" alt="" class="img-fluid rounded-circle p-4">
+          <img src="img/titanium-1.jpeg" alt="" class="img-fluid rounded-circle p-4">
           <h5>鈦製品</h5>
           <p>介紹介紹介紹介紹介紹</p>
-          <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+          <p><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+              view details
+            </button></p>
+          <!-- Modal -->
+          <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">釣魚打獵</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <img src="img/fishing-2.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--modal-->
         </div><!-- /.col-lg-3 -->
         <div class="col-lg-3">
           <img src="img/other-1.jpg" alt="" class="img-fluid rounded-circle p-4">
           <h5>其他</h5>
           <p>介紹介紹介紹介紹介紹</p>
-          <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+          <p><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+              view details
+            </button></p>
+          <!-- Modal -->
+          <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">釣魚打獵</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <img src="img/fishing-2.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--modal-->
         </div><!-- /.col-lg-3 -->
       </div>
       <!--row-->
@@ -126,7 +218,7 @@
   <!--other products-->
 
   <!-- About -->
-  <div class="about">
+  <div class="about" id="section3">
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">
         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -196,7 +288,7 @@
   </div>
 
   <!-- Contact -->
-  <div class="contact px-3 py-3 pt-md-5 pb-md-4 mx-auto">
+  <div class="contact px-3 py-3 pt-md-5 pb-md-4 mx-auto" id="section4">
     <h3 class="text-center">聯絡我們 Get in Touch</h3>
     <ul class="list-group mx-auto pt-3">
       <li class="list-group-item"><i class="far fa-envelope text-center"></i>liascent8@gmail.com</li>
