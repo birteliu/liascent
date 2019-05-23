@@ -65,6 +65,9 @@ body {
     min-height: 350px;
     img {
       @include ab_center;
+      @include phone {
+        position: relative;
+      }
     }
   }
 }

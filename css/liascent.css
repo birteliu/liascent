@@ -53,6 +53,12 @@ body {
           transform: translate(-50%, -50%);
 }
 
+@media screen and (max-width: 575px) {
+  .about .container img {
+    position: relative;
+  }
+}
+
 .contact ul {
   width: 250px;
 }
