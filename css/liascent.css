@@ -24,6 +24,13 @@ body {
   border-radius: 0;
 }
 
+@media screen and (max-width: 767px) {
+  .main-product .card {
+    width: 80%;
+    margin: auto;
+  }
+}
+
 .material {
   background-image: linear-gradient(60deg, #abecd6 0%, #fbed96 100%);
 }
@@ -59,8 +66,14 @@ body {
   }
 }
 
+@media screen and (max-width: 575px) {
+  .contact {
+    margin: 2em;
+  }
+}
+
 .contact ul {
-  width: 250px;
+  width: 350px;
 }
 
 .contact ul li {
@@ -71,5 +84,29 @@ body {
 .contact ul li i {
   width: 50px;
   line-height: 25px;
+}
+
+footer .go-top {
+  float: right;
+}
+
+@media screen and (max-width: 575px) {
+  footer .go-top {
+    float: none;
+  }
+}
+
+footer .go-top a {
+  cursor: pointer;
+}
+
+footer .go-top a:hover {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 575px) {
+  footer {
+    text-align: center;
+  }
 }
 /*# sourceMappingURL=liascent.css.map */

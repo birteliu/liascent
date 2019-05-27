@@ -46,7 +46,14 @@ body {
   .card-btn {
     border-radius: 0;
   }
-}
+  @include pad {
+    .card {
+      width: 80%;
+      margin: auto;
+    }
+  }
+} 
+
 .material {
   background-image: linear-gradient(60deg, #abecd6 0%, #fbed96 100%);
   .container {
@@ -56,6 +63,10 @@ body {
 .other-products {
   img {
     width: 70%;
+  }
+  .wader-modal {
+    .modal-body {
+    }
   }
 }
 .about {
@@ -72,8 +83,11 @@ body {
   }
 }
 .contact {
+  @include phone {
+    margin: 2em;
+  }
   ul {
-    width: 250px;
+    width: 350px;
     li {
       height: 50px;
       line-height: 25px;
@@ -81,8 +95,23 @@ body {
         width: 50px;
         line-height: 25px;
       }
-    }
-    
+    } 
   }
-  
+}
+footer {
+  .go-top {
+    float: right;
+    @include phone {
+    float: none;
+    }
+    a {
+      cursor: pointer;
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
+  @include phone {
+    text-align: center;
+  }
 }
