@@ -39,6 +39,10 @@ body {
   img {
     width: 220px;
   }
+  @include phone {
+    font-size: 0.9em;
+    text-align: center;
+  }
 }
 
 .top-banner {

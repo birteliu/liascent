@@ -16,6 +16,13 @@ body {
   width: 220px;
 }
 
+@media screen and (max-width: 575px) {
+  .section-nav {
+    font-size: 0.9em;
+    text-align: center;
+  }
+}
+
 .top-banner {
   background-image: url(../img/bg.jpg);
   background-repeat: no-repeat;
