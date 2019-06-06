@@ -41,6 +41,14 @@ body {
   }
 }
 
+.top-banner {
+  background-image: url(../img/bg.jpg);
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  background-position: center center;
+  color: #fff;
+}
+
 .main-product {
   max-width: 800px;
   .card-btn {
@@ -62,7 +70,7 @@ body {
 }
 .other-products {
   img {
-    width: 70%;
+    width: 90%;
   }
   .wader-modal {
     .modal-body {
@@ -99,15 +107,29 @@ body {
   }
 }
 footer {
+  background-image: url(../img/bg-2.jpg);
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  background-position: center center;
   .go-top {
-    float: right;
-    @include phone {
-    float: none;
-    }
+    cursor: pointer;
+    position: fixed;
+    bottom: 10px;
+    right: 30px;
+    text-align: center;
+    opacity: 0;
+    transition: .3s;
     a {
-      cursor: pointer;
+      color: $color-orange;
+      font-weight: bold;
+      img {
+        width: 40px;
+        fill: #fff;
+      }
       &:hover {
         text-decoration: none;
+        color: darken($color-orange, 10%);
+        transition: .2s;
       }
     }
   }

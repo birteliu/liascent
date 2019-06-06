@@ -16,6 +16,14 @@ body {
   width: 220px;
 }
 
+.top-banner {
+  background-image: url(../img/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  color: #fff;
+}
+
 .main-product {
   max-width: 800px;
 }
@@ -40,7 +48,7 @@ body {
 }
 
 .other-products img {
-  width: 70%;
+  width: 90%;
 }
 
 .about {
@@ -86,22 +94,39 @@ body {
   line-height: 25px;
 }
 
-footer .go-top {
-  float: right;
+footer {
+  background-image: url(../img/bg-2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
 }
 
-@media screen and (max-width: 575px) {
-  footer .go-top {
-    float: none;
-  }
+footer .go-top {
+  cursor: pointer;
+  position: fixed;
+  bottom: 10px;
+  right: 30px;
+  text-align: center;
+  opacity: 0;
+  -webkit-transition: .3s;
+  transition: .3s;
 }
 
 footer .go-top a {
-  cursor: pointer;
+  color: #F59B65;
+  font-weight: bold;
+}
+
+footer .go-top a img {
+  width: 40px;
+  fill: #fff;
 }
 
 footer .go-top a:hover {
   text-decoration: none;
+  color: #f27c35;
+  -webkit-transition: .2s;
+  transition: .2s;
 }
 
 @media screen and (max-width: 575px) {
