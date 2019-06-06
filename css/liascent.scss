@@ -60,6 +60,14 @@ body {
       margin: auto;
     }
   }
+  button.btn-green {
+    background-color: $color-green;
+    color: #fff;
+    &:hover {
+      background-color: darken($color-green, 5%);
+      color: #fff;
+    }
+  }
 } 
 
 .material {
@@ -74,6 +82,15 @@ body {
   }
   .wader-modal {
     .modal-body {
+    }
+  }
+  button.btn-orange {
+    background-color: $color-orange;
+    color: #fff;
+    transition: .3s;
+    &:hover {
+      background-color: darken($color-orange, 10%);
+      color: #fff;
     }
   }
 }

@@ -39,6 +39,16 @@ body {
   }
 }
 
+.main-product button.btn-green {
+  background-color: #7FB559;
+  color: #fff;
+}
+
+.main-product button.btn-green:hover {
+  background-color: #72a94b;
+  color: #fff;
+}
+
 .material {
   background-image: linear-gradient(60deg, #abecd6 0%, #fbed96 100%);
 }
@@ -49,6 +59,18 @@ body {
 
 .other-products img {
   width: 90%;
+}
+
+.other-products button.btn-orange {
+  background-color: #F59B65;
+  color: #fff;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.other-products button.btn-orange:hover {
+  background-color: #f27c35;
+  color: #fff;
 }
 
 .about {
